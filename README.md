@@ -1,7 +1,6 @@
 # haskell-vscode-container
-An environment to start haskell quickly in vscode with Remote-Container
-
-The environment includes ghcup
+This is an environment to start haskell quickly in vscode with Remote-Container.
+This environment includes ghcup.
 
 # How to use
 in windows
