@@ -29,3 +29,5 @@ vscode extension
 8. Click green button at the lower left
 
 9. Select Reopen in Containers
+
+10. ```runghc hello.hs``` in terminal
