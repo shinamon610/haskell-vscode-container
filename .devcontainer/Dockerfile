@@ -39,6 +39,9 @@ RUN bash -c "ghcup set stack 2.7.5"
 # Update Path to include Cabal and GHC exports
 RUN bash -c "echo PATH="$HOME/.local/bin:$PATH" >> $HOME/.bashrc"
 RUN bash -c "echo export LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH" >> $HOME/.bashrc"
+
+# git alias
+RUN bash -c "echo alias g='git' >> $HOME/.bashrc"
 RUN bash -c "source $HOME/.bashrc"
 
 # Update cabal
