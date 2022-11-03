@@ -14,7 +14,7 @@ Activate Powershell with admin then
 
 3. Register user name and password
 
-When reboot windows powershell will be activated automatically and ask user name and password
+After windows rebooted,  powershell will be activated automatically and ask user name and password
 
 4. Install docker desktop
 
@@ -29,3 +29,5 @@ vscode extension
 8. Click green button at the lower left
 
 9. Select Reopen in Containers
+
+10. ```runghc hello.hs``` in terminal
